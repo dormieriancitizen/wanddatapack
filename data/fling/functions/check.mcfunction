@@ -1,0 +1,1 @@
+execute as @a[tag=casting,nbt={SelectedItem:{tag:{laser:1}}}] at @a[tag=casting,nbt={SelectedItem:{tag:{laser:1}}}] run function fling:start_raycast

@@ -1,0 +1,1 @@
+execute as @a[tag=casting,nbt={SelectedItem:{tag:{exploder:1}}}] at @a[tag=casting,nbt={SelectedItem:{tag:{exploder:1}}}] run function raycast:start_raycast
