@@ -1,0 +1,2 @@
+setblock ~ ~ ~ crimson_sign
+data merge block ~ ~ ~ {Text1:'{"text":"Cast the Spell","clickEvent":{"action":"run_command","value":"function main:givebook"},"color":"gold"}',Text2:'{"text":"Minecraft Tools","obfuscated":true,"color":"dark_blue"}'}

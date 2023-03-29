@@ -1,0 +1,1 @@
+execute as @a[tag=casting,nbt={SelectedItem:{tag:{arrowstorm:1}}}] at @a[tag=casting,nbt={SelectedItem:{tag:{arrowstorm:1}}}] run function arrowstorm:go

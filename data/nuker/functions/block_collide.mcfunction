@@ -1,0 +1,1 @@
+execute as @e[limit=400] run summon minecraft:tnt_minecart ~ ~ ~ {Motion:[-0.1,-0.1,-0.1]}
