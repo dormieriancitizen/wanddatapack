@@ -1,0 +1,2 @@
+execute at @s rotated as @s run summon minecraft:arrow ~ ~ ~ {Tags:["to_add_motion","magic_arrow"], Fuse:20, NoGravity:1b,life:100}
+execute at @s rotated as @s as @e[tag=to_add_motion] run function cast:apply_motion

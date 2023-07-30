@@ -1,10 +1,12 @@
 execute as @a[scores={casting=1..}] run tag @s add casting
 function raycast:check
-function arrowstorm:check
+function okboomer:check
 function teleporter:check
 function fling:check
 function nuker:check
 function summoner:check
+function cast:check
+
 
 scoreboard players set @a casting 0
 tag @a remove casting
